@@ -81,6 +81,22 @@ header .profile-image:hover {
   max-width: 100%;
 }
 
+.foto-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.foto-card > img{
+  max-width: 100%;
+}
+
+.foto-card > img:hover{
+  transform: scale(1.1);
+}
+
 .tag {
   background-color: #efefef;
   color: black;
